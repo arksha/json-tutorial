@@ -1,0 +1,4 @@
+/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/CMakeFiles/leptjson_test.dir
+/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/CMakeFiles/leptjson.dir
+/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/CMakeFiles/ALL_BUILD.dir
+/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/CMakeFiles/ZERO_CHECK.dir

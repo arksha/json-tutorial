@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0F5097E220B447EBB43F8468 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5CFA914A0C87458B84B2DE1E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B6C5E4358865405FAC4BD192 /* CMake Rules */,
+			);
+			dependencies = (
+				DF1341AFA5FF4FE0AEC3F0F8 /* PBXTargetDependency */,
+				619C32FF16CD48F4A940B701 /* PBXTargetDependency */,
+				52507C5F7962491AABB53F28 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7383107915F749F1915E3EEE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0FF9D3A04895476CAD8A200E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A27BDB4FF195400D84738D51 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9699B8DA0EF14CDCA2420CA8 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4BE7B551D64B49339CECA64B /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */; };
+		BDC52961E5E343BFB145322C /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/test.c */ = {isa = PBXBuildFile; fileRef = 0C27FBDBCC1641FD85EC2082 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/test.c */; };
+		DA59FE8F368E4EBB9ED170D4 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C332870D5FD2470598143B7D /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */; };
+		DB2DD9D6845A45D1888BB3A0 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/leptjson.c */ = {isa = PBXBuildFile; fileRef = F86C8E9961F84B509B3B8B36 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/leptjson.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		07AD650A71714B42A0D44D64 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		588019DFE03547AF9A183000 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B5548C4016124566941426CB = {
+			isa = PBXBuildStyle;
+		};
+		E86F50A1A0684281ABAA8044 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EC46C098AF8B45558E4621D3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		33A57710754048C4BF4CF64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3529316351794F22BF7F4BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6595E301573412BB5CD97B9;
+			remoteInfo = leptjson;
+		};
+		54636F72980442A28B847F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3529316351794F22BF7F4BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6595E301573412BB5CD97B9;
+			remoteInfo = leptjson;
+		};
+		587C95D0256C41C1B9192301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3529316351794F22BF7F4BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7383107915F749F1915E3EEE;
+			remoteInfo = ZERO_CHECK;
+		};
+		6B5A891299DB48088EF45290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3529316351794F22BF7F4BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7383107915F749F1915E3EEE;
+			remoteInfo = ZERO_CHECK;
+		};
+		758AAFF4282F4F39A4FB59CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3529316351794F22BF7F4BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74F30DBE1E54AC785C43155;
+			remoteInfo = leptjson_test;
+		};
+		DF746A8097E844C9BF6D766A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3529316351794F22BF7F4BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7383107915F749F1915E3EEE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C27FBDBCC1641FD85EC2082 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/test.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = test.c; path = test.c; sourceTree = SOURCE_ROOT; };
+		0EB67EDD61694F4D840C8F86 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4BE7B551D64B49339CECA64B /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		99D6DA9588D24C46BEBB368B /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A6ECD3BF0D004E1DA90BA7C3 /* leptjson_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = leptjson_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		C332870D5FD2470598143B7D /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E5740BFA440C431B90C654C3 /* leptjson */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libleptjson.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86C8E9961F84B509B3B8B36 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/leptjson.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = leptjson.c; path = leptjson.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F88C5B02710430E863298BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2C5A5C38F36648F988CB8424 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4C5CBED553574F66BF058C20 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4D540C59F34A45D2A1F85EDD /* leptjson */ = {
+			isa = PBXGroup;
+			children = (
+				B4DCE035793441AA812C0B4B /* Source Files */,
+				C332870D5FD2470598143B7D /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */,
+			);
+			name = leptjson;
+			sourceTree = "<group>";
+		};
+		735C3FF4CDDA40C5826773E1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				2C5A5C38F36648F988CB8424 /* CMake Rules */,
+				0EB67EDD61694F4D840C8F86 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		7B5D71A27D0542488FA30669 /* leptjson_test */ = {
+			isa = PBXGroup;
+			children = (
+				87B9751025254205BAFA275B /* Source Files */,
+				4BE7B551D64B49339CECA64B /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */,
+			);
+			name = leptjson_test;
+			sourceTree = "<group>";
+		};
+		87B9751025254205BAFA275B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C27FBDBCC1641FD85EC2082 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/test.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8CC031F07FE443CCB9EA1435 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D71A27D0542488FA30669 /* leptjson_test */,
+				4D540C59F34A45D2A1F85EDD /* leptjson */,
+				A9B7E48387664CF1B85BF965 /* ALL_BUILD */,
+				735C3FF4CDDA40C5826773E1 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		9AAB7AF0E49545F3BF851E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5740BFA440C431B90C654C3 /* leptjson */,
+				A6ECD3BF0D004E1DA90BA7C3 /* leptjson_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B7E48387664CF1B85BF965 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4C5CBED553574F66BF058C20 /* CMake Rules */,
+				99D6DA9588D24C46BEBB368B /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B4DCE035793441AA812C0B4B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F86C8E9961F84B509B3B8B36 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/leptjson.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C42DCA6198B84090927B81D7 = {
+			isa = PBXGroup;
+			children = (
+				8CC031F07FE443CCB9EA1435 /* Sources */,
+				0F88C5B02710430E863298BF /* Resources */,
+				9AAB7AF0E49545F3BF851E6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74F30DBE1E54AC785C43155 /* leptjson_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1181288DFAC2492E91E5B9E1 /* Build configuration list for PBXNativeTarget "leptjson_test" */;
+			buildPhases = (
+				D029CDB57A454118A4A82E70 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F11AD8B5A54925BFD683D3 /* PBXTargetDependency */,
+				0364B031C1A04A6D89C5642B /* PBXTargetDependency */,
+			);
+			name = leptjson_test;
+			productName = leptjson_test;
+			productReference = A6ECD3BF0D004E1DA90BA7C3 /* leptjson_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6595E301573412BB5CD97B9 /* leptjson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5B335424BE49D7B668CD64 /* Build configuration list for PBXNativeTarget "leptjson" */;
+			buildPhases = (
+				A9661FEF46CB4694987B00AC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585FF0F3933444F1A6DFE21F /* PBXTargetDependency */,
+			);
+			name = leptjson;
+			productName = leptjson;
+			productReference = E5740BFA440C431B90C654C3 /* leptjson */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3529316351794F22BF7F4BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 15233730889E470B93DA7220 /* Build configuration list for PBXProject "leptjson_test" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E86F50A1A0684281ABAA8044 /* Debug */,
+				588019DFE03547AF9A183000 /* Release */,
+				07AD650A71714B42A0D44D64 /* MinSizeRel */,
+				EC46C098AF8B45558E4621D3 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C42DCA6198B84090927B81D7;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				0F5097E220B447EBB43F8468 /* ALL_BUILD */,
+				7383107915F749F1915E3EEE /* ZERO_CHECK */,
+				F6595E301573412BB5CD97B9 /* leptjson */,
+				E74F30DBE1E54AC785C43155 /* leptjson_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68C28DF72211493FB07D1473 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A27BDB4FF195400D84738D51 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode -f /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B338080F973145CAB9D812DD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B6C5E4358865405FAC4BD192 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode -f /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9661FEF46CB4694987B00AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2DD9D6845A45D1888BB3A0 /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/leptjson.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D029CDB57A454118A4A82E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC52961E5E343BFB145322C /* /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/test.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0364B031C1A04A6D89C5642B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7383107915F749F1915E3EEE /* ZERO_CHECK */;
+			targetProxy = 587C95D0256C41C1B9192301 /* PBXContainerItemProxy */;
+		};
+		52507C5F7962491AABB53F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74F30DBE1E54AC785C43155 /* leptjson_test */;
+			targetProxy = 758AAFF4282F4F39A4FB59CC /* PBXContainerItemProxy */;
+		};
+		585FF0F3933444F1A6DFE21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7383107915F749F1915E3EEE /* ZERO_CHECK */;
+			targetProxy = 6B5A891299DB48088EF45290 /* PBXContainerItemProxy */;
+		};
+		619C32FF16CD48F4A940B701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7383107915F749F1915E3EEE /* ZERO_CHECK */;
+			targetProxy = DF746A8097E844C9BF6D766A /* PBXContainerItemProxy */;
+		};
+		DF1341AFA5FF4FE0AEC3F0F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6595E301573412BB5CD97B9 /* leptjson */;
+			targetProxy = 54636F72980442A28B847F94 /* PBXContainerItemProxy */;
+		};
+		E9F11AD8B5A54925BFD683D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6595E301573412BB5CD97B9 /* leptjson */;
+			targetProxy = 33A57710754048C4BF4CF64B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16A50F07E78F4F45B3470FB8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -ansi -pedantic -Wall        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		267E94A8C9AE4F0AA6A6D0F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -ansi -pedantic -Wall     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/MinSizeRel/libleptjson.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3ED6173C27AE4BCA9E1D4638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		459AE299DFA14AF3B03DA737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4A55F7A880F246E68C696210 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4BF76A28C4934C2D8E5E32F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5008107972C6494EB9246DF5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		564102AEA1AD4CF486DDF35A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -ansi -pedantic -Wall     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6A623E00ADEF4B2F8CCA7665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -ansi -pedantic -Wall     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/Debug/libleptjson.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6ABE00F177C743C6B091C2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/build";
+			};
+			name = Release;
+		};
+		6B1603F6E2C14709B75735E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -ansi -pedantic -Wall     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		793962C3526E41878FBB0B67 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -ansi -pedantic -Wall        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/RelWithDebInfo/libleptjson.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		82BBD0AB763943C1A8D64FDF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/build";
+			};
+			name = MinSizeRel;
+		};
+		86FF6B95DB764E9FAFB09FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9DADA6256FDC4FB9B0AB4FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -ansi -pedantic -Wall     ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AAC4818C8349432AB6419CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BC16DD48B39846098EAE1A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -ansi -pedantic -Wall     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/Release/libleptjson.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leptjson_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D8CFBF76D04C45A0BA813BC0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E74DD66BE9F647569CC6446A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F1EAFEFCAD3D4DC89F131A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/tinggong/github/jsontutorial/json-tutorial/tutorial01/buildXcode/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF9D3A04895476CAD8A200E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC4818C8349432AB6419CB0 /* Debug */,
+				86FF6B95DB764E9FAFB09FBB /* Release */,
+				4BF76A28C4934C2D8E5E32F9 /* MinSizeRel */,
+				4A55F7A880F246E68C696210 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1181288DFAC2492E91E5B9E1 /* Build configuration list for PBXNativeTarget "leptjson_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A623E00ADEF4B2F8CCA7665 /* Debug */,
+				BC16DD48B39846098EAE1A6B /* Release */,
+				267E94A8C9AE4F0AA6A6D0F6 /* MinSizeRel */,
+				793962C3526E41878FBB0B67 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		15233730889E470B93DA7220 /* Build configuration list for PBXProject "leptjson_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EAFEFCAD3D4DC89F131A4A /* Debug */,
+				6ABE00F177C743C6B091C2FB /* Release */,
+				82BBD0AB763943C1A8D64FDF /* MinSizeRel */,
+				D8CFBF76D04C45A0BA813BC0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2B5B335424BE49D7B668CD64 /* Build configuration list for PBXNativeTarget "leptjson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DADA6256FDC4FB9B0AB4FDE /* Debug */,
+				6B1603F6E2C14709B75735E6 /* Release */,
+				564102AEA1AD4CF486DDF35A /* MinSizeRel */,
+				16A50F07E78F4F45B3470FB8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CFA914A0C87458B84B2DE1E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459AE299DFA14AF3B03DA737 /* Debug */,
+				3ED6173C27AE4BCA9E1D4638 /* Release */,
+				E74DD66BE9F647569CC6446A /* MinSizeRel */,
+				5008107972C6494EB9246DF5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3529316351794F22BF7F4BB5 /* Project object */;
+}
